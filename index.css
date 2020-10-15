@@ -1,6 +1,12 @@
 h1, h2 {
   color: #ff6600;
 }
+h1 {
+  font-size: 6.6vmin;
+}
+h2 {
+  font-size: 5vmin;
+}
 h3 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -29,6 +35,9 @@ figure {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.figure-caption {
+  font-size: smaller;
+}
 table {
   text-align: center;
 }
@@ -37,7 +46,7 @@ footer {
   height:100px;
   margin-top: 10px;
 }
-footer figure {
+footer img {
   height:90%;
   width:auto;
   padding:10px;
